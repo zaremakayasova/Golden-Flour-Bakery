@@ -1,0 +1,193 @@
+/* Home page styling */
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color:#808080;
+    color:#D2B48C;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#D2B48C;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#FFE4C4;
+    transform: scale(1.15);
+}
+
+.navbar-dark .navbar-text {
+    color:#D2B48C;
+}
+
+.navbar-dark .navbar-text:hover {
+    color:#D2B48C;
+    transform: scale(1.15);
+}
+
+.mainImg {
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    color:#696969;
+    background-color: #D2B48C;
+}
+
+#mainContent h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+#mainContent h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+hr {
+   width:35%;
+   border: 0.5px solid #696969;
+   background-color:#696969;
+}
+
+.colorStripe {
+    color: #D2B48C;
+    background-color:#696969;
+}
+
+.heading {
+    font-family: 'Dancing Script', cursive;
+}
+
+.bakerySample h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.info:hover {
+    transform: scale(1.12);
+}
+
+#imageText {
+    width:100%;
+    height: 60vh;
+    background-image:linear-gradient(rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.5)),
+    url(../images/bread.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#imageText h2 {
+    letter-spacing: 5px;
+}
+
+.btn {
+    color:#D2B48C;
+    font-family: 'Dancing Script', cursive;
+}
+
+.btn:hover {
+    color:#FFE4C4;
+}
+
+#footer a {
+    color:#D2B48C;
+}
+
+/* Our Story page styling*/
+
+#storyCover {
+    width:100%;
+    height: 80vh;
+    background-image:url(../images/storyCover.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.story {
+    height: 60vh;
+    background-color: rgba(210,180,140, 0.6);
+    color:rgb(139,69,19);
+}
+
+.story:hover {
+    transform: scale(1.05);
+}
+
+.story h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+#storyCover hr {
+    width:65%;
+    border: 1.5px solid black;
+    background-color: black;
+ }
+
+ /* Menu page styling */
+
+table .category {
+  font-family: 'Dancing Script', cursive;
+}
+
+table .category:hover {
+    transform: scale(1.05);
+  }
+
+.menu {
+    background-color: #D2B48C;
+}
+
+.coverLine {
+    height: 45vh;
+    background-color:#696969;
+    color: #D2B48C;
+ }
+
+ .coverLine h2 {
+    font-family: 'Dancing Script', cursive;
+ }
+
+ .coverLine p {
+     color:#D2B48C;
+ }
+
+ .coverLine a {
+     color:#212529;
+ }
+
+ .coverLine a:hover {
+    color:#D2B48C;
+}
+
+.coverLine hr {
+    width:25%;
+    border: 0.5px solid #D2B48C;
+    background-color:#D2B48C;
+}
+
+@media (min-width:400px) {
+    .coverLine {
+        height: 60vh;
+    }
+}
+
+/* Contact page styling*/
+
+#contactForm {
+    width:100%;
+    height: 100vh;
+    background-image:url(../images/contactForm.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.formColumn {
+    height: 75vh;
+    background-color: rgba(210,180,140, 0.8);
+    color: #696969;
+}
+
+
+
+
