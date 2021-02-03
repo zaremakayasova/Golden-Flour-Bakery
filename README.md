@@ -1,7 +1,6 @@
 # Golden-Flour-Bakery
-Responsive Bootstrap website.
 
-This is a responsive website built with HTML5, CSS3 and Bootstrap 5.
+Responsive Bootstrap bakery website built with HTML5, CSS3 and Bootstrap 5.
 
 ## Live Demo
 
