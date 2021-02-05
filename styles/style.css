@@ -32,6 +32,12 @@ body {
 .name {
     color:#696969;
     background-color: #D2B48C;
+    overflow: hidden;
+}
+
+.name:hover {
+    transform: scale(1.12);
+    transition: transform 5s;
 }
 
 #mainContent h1 {
@@ -61,8 +67,13 @@ hr {
     font-family: 'Dancing Script', cursive;
 }
 
+.info {
+    overflow:hidden;
+}
+
 .info:hover {
     transform: scale(1.12);
+    transition: transform 2s;
 }
 
 #imageText {
@@ -107,10 +118,12 @@ hr {
     height: 60vh;
     background-color: rgba(210,180,140, 0.6);
     color:rgb(139,69,19);
+    overflow: hidden;
 }
 
 .story:hover {
     transform: scale(1.05);
+    transition: transform 3s;
 }
 
 .story h3 {
@@ -141,6 +154,12 @@ table .category:hover {
     height: 45vh;
     background-color:#696969;
     color: #D2B48C;
+    overflow: hidden;
+ }
+
+ .coverLine:hover {
+    transform: scale(1.05);
+    transition: transform 3s;
  }
 
  .coverLine h2 {
